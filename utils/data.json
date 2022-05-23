@@ -1,0 +1,139 @@
+[
+  {
+    "id": "stefano_spensieri",
+    "name": "Stefano",
+    "lastname": "Spensieri",
+    "avatar": "stefano_avatar.jpeg",
+    "jobPosition": "Frontend developer",
+    "company": "Docsity - Freelance",
+    "description": "I’m a mathematician and a web developer with +10 years experience. I’m a front-end enthusiast, passionate about conveying a great user experience and implementing smart client-side logic. I’m eager to work where aesthetic and logic meet.",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "4.5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4.3"
+      },
+      {
+        "name": "css",
+        "level": "4.2"
+      },
+      {
+        "name": "English",
+        "level": "4.2"
+      },
+      {
+        "name": "Git",
+        "level": "3.3"
+      },
+      {
+        "name": "React",
+        "level": "4.2"
+      },
+      {
+        "name": "Java",
+        "level": "3.3"
+      },
+      {
+        "name": "PHP",
+        "level": "2.3"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-film" },
+      "song": { "name": "The Rock Show -Blink 182", "icon": "fa-music" },
+      "book": {
+        "name": "I pilastri della terra - Ken Follet",
+        "icon": "fa-book"
+      },
+      "pizza": { "name": "Margherita", "icon": "fa-pizza-slice" },
+      "cartoon": {
+        "name": "Tartarughe Ninja",
+        "icon": "fa-comment-dots"
+      }
+    }
+  },
+  {
+    "id": "dummy_test",
+    "name": "Dummy",
+    "lastname": "Test",
+    "avatar": "empty_avatar.jpeg",
+    "jobPosition": "Your Position",
+    "company": "Your Company",
+    "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
+    "links": [
+      {
+        "name": "Github",
+        "logo": "fa-github",
+        "url": "https://github.com/spensieri-s"
+      },
+      {
+        "name": "Linkedin",
+        "logo": "fa-linkedin",
+        "url": "https://www.linkedin.com/in/sspensieri/"
+      },
+      {
+        "name": "Docsity",
+        "logo": "fa-globe",
+        "url": "https://www.docsity.com"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "5"
+      },
+      {
+        "name": "HMTL",
+        "level": "4"
+      },
+      {
+        "name": "css",
+        "level": "3.5"
+      },
+      {
+        "name": "English",
+        "level": "3"
+      },
+      {
+        "name": "Git",
+        "level": "2"
+      },
+      {
+        "name": "React",
+        "level": "1"
+      },
+      {
+        "name": "Java",
+        "level": "1"
+      },
+      {
+        "name": "PHP",
+        "level": "1"
+      }
+    ],
+    "favourites": {
+      "movie": { "name": "The Godfather - Part II", "icon": "fa-movie" },
+      "something": { "name": "something nice", "icon": "fa-note" }
+    }
+  }
+]
