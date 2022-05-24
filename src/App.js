@@ -7,7 +7,7 @@ import data from "../utils/data.json";
 export default function App() {
   return (
     <div className="App">
-      <h1 class="pc-mainTitle">Let's get to know each other (v4)</h1>
+      <h1 class="pc-mainTitle">Let's get to know each other (v5)</h1>
       <h2 class="pc-mainSubtitle">We can build a card to present ourselves</h2>
       <div className="pc-card-container">
         {data.map((elem, index) => {
