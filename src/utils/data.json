@@ -76,7 +76,7 @@
     "id": "dummy_test",
     "name": "Dummy",
     "lastname": "Test",
-    "avatar": "empty_avatar.jpeg",
+    "avatar": "blank_avatar.jpeg",
     "jobPosition": "Your Position",
     "company": "Your Company",
     "description": "A long description... A long description... A long description... A long description... A long description... A long description... A long description...",
