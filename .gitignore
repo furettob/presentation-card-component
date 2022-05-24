@@ -1,5 +1,6 @@
 # Boilerplate Webstorm
 .idea/
+.DS_Store
 
 
 # NodeModules
