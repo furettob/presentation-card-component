@@ -19,7 +19,7 @@ export default function Card({ elem }) {
       <Area title={"Skills"}>
         <Grid>
           {elem.skills.map((skill, index) => {
-            return <Skill name={skill.name} level={skill.level} />;
+            return <Skill key={skill.name + "_" + index} name={skill.name} level={skill.level} />;
           })}
         </Grid>
       </Area>
