@@ -8,7 +8,7 @@ class Image extends Component {
         <div
           className="pc-thumb"
           style={{
-            backgroundImage: `url(./img/${this.props.avatar})`
+            backgroundImage: `url(/img/${this.props.avatar})`
           }}
           alt={this.props.name}
         />
