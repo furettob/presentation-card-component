@@ -1,49 +1,48 @@
-export default function Card({ elem }) {
-  return (
-    <div key={elem.id} className={"pc-card"}>
-      <div>
-        <img src={"./img/" + elem.avatar} width="60px" alt={elem.name} />
-        <h3>
-          {elem.name} {elem.lastname}
-        </h3>
-      </div>
-      <div>
-        {elem.jobPosition} @ {elem.company}
-      </div>
-      <div>{elem.description}</div>
+import { Component } from "react";
+import Area from "./Area";
 
-      <h3>Skills</h3>
-      <ul>
-        {elem.skills.map((skill, index) => {
-          return (
-            <li key={skill.name + "_" + index}>
-              <i>{skill.name}</i> ({skill.level} / 5),{" "}
-            </li>
-          );
-        })}
-      </ul>
+class Card extends Component {
+    constructor(props) {
+        super(props)
+        console.log("Building a card!!");
+    }
 
-      <h3>Favourites</h3>
-      <ul>
-        {Object.keys(elem.favourites).map((favName, index) => {
-          return (
-            <li key={favName + "_" + index}>
-              My favourite {favName} is {elem.favourites[favName].name}
-            </li>
-          );
-        })}
-      </ul>
+    render() {
+        return (
+            <div key={this.props.elem.id}>
+                <Area>
+                    <div>
+                        <img
+                            src={"./img/" + this.props.elem.avatar}
+                            width="60px"
+                            alt={this.props.elem.name}
+                        />
+                        <h3>
+                            {this.props.elem.name} {this.props.elem.lastname}
+                        </h3>
+                    </div>
+                    <div>
+                        {this.props.elem.jobPosition} @ {this.props.elem.company}
+                    </div>
+                    <div>{this.props.elem.description}</div>
+                </Area>
 
-      <h3>Links</h3>
-      <div>
-        {elem.links.map((link, index) => {
-          return (
-            <span key={link.name + "_" + index}>
-              <a href={link.url}>{link.name}</a>{" "}
-            </span>
-          );
-        })}
-      </div>
-    </div>
-  );
+                <Area title="Skills">
+                    <ul>
+                        {this.props.elem.skills.map((skill, index) => {
+                            return (
+                                <li key={skill.name + "_" + index}>
+                                    <i>{skill.name}</i> ({skill.level} / 5),{" "}
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </Area>
+
+
+            </div>
+        );
+    }
 }
+
+export default Card;
