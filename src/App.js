@@ -13,6 +13,7 @@ export default function App() {
         {data.map((elem, index) => {
           return <CardV2 key={`${elem.id}_${index}`} elem={elem} />;
         })}
+          <div><h3>Old version:</h3></div>
         {data.map((elem, index) => {
           return <Card key={`${elem.id}_${index}`} elem={elem} />;
         })}
